@@ -17,22 +17,22 @@ To support startups in the pre-final stages by providing **unbiased, real-time e
 * **Frame-sequence–based analysis** for richer temporal understanding
 * **Designed specifically for focus group moderators**
 
-## Technical Overview**
+## Technical Overview
 
-### **Model Architecture**
+### Model Architecture
 
 * Custom CNN model optimized for lean structure
 * Trained on a **modified FER2013 dataset** (20,000+ images, 48×48 pixels)
 * Real-time classification pipeline using sequences of frames
 
-### **Training Data**
+### Training Data
 
 * FER2013 base dataset
 * Modified version (removed *disgust*)
 * Participants aged 23–58
 * Face-to-camera distance ~60 cm
 
-### **Pipeline**
+### Pipeline
 
 1. Capture frames
 2. Detect faces using Haar Cascade
@@ -41,35 +41,33 @@ To support startups in the pre-final stages by providing **unbiased, real-time e
 5. Feed sequences into CNN
 6. Generate real-time emotion predictions
 
----
-
-## ** Model Performance**
+## Model Performance
 
 | Metric                  | Accuracy   |
 | ----------------------- | ---------- |
 | **Training Accuracy**   | **95.85%** |
 | **Validation Accuracy** | **89.64%** |
 
-## ** Tech Stack**
+## Tech Stack
 
 * **Languages:** Python
 * **Libraries:** Keras, NumPy, Pandas, Pygame
 * **Tools/Methods:** Haar Cascade, ImageDataGenerator, CNN
 
-## ** Challenges**
+## Challenges
 
 * Tuning model parameters for competitive accuracy
 * Handling variations in color images and backgrounds
 * Balancing model size with performance in a competitive domain
 
-## ** Future Enhancements**
+## Future Enhancements
 
 * Fully online version using smartphone front cameras
 * Gamified user-feedback interface for larger datasets
 * GAN-based model improvement system
 * Integration of reinforcement learning for smarter data collection
 
-## **📌 Use Case Summary**
+## Use Case Summary
 
 MindMint helps startups who must collect customer feedback from focus groups by providing **deep emotional insights**, unlike standard surveys or interview-based methods.
 It helps teams understand user reactions more accurately and improve feature design, UI, and overall customer experience.
