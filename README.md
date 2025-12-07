@@ -1,13 +1,13 @@
-# **MindMint – Real-Time Facial Emotion Recognition for Focus Groups**
+# MindMint – Real-Time Facial Emotion Recognition for Focus Groups
 
 MindMint is a lightweight deep-learning–based facial emotion recognition tool designed to help startups gather richer customer insights during focus groups.
 By analyzing facial expressions in real time, moderators can better understand user reactions and enhance overall customer experience.
 
-## ** Project Goal**
+## Project Goal
 
 To support startups in the pre-final stages by providing **unbiased, real-time emotional insights** during customer feedback sessions—going beyond traditional surveys, interviews, and forms.
 
-## ** Key Features**
+## Key Features
 
 * **Real-time facial emotion recognition** using a custom CNN model
 * **Lightweight deep learning architecture** with fewer parameters
@@ -17,7 +17,7 @@ To support startups in the pre-final stages by providing **unbiased, real-time e
 * **Frame-sequence–based analysis** for richer temporal understanding
 * **Designed specifically for focus group moderators**
 
-## ** Technical Overview**
+## Technical Overview**
 
 ### **Model Architecture**
 
